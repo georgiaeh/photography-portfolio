@@ -1,0 +1,16 @@
+:root{
+	--dark-grey:#4A4A4A;
+	--light-grey:#B2B5BA;
+	--light-pink:#FFF0E9;
+	--pink: #FF6A7C;
+	--blue: #41CADD;
+	--primary-font: "Nunito", sans-serif;
+	--secondary-font: "Pacifico", cursive;
+	--transition-duration: 0.4s;
+	--bgcolor-transition: background-color var(--transition-duration) linear;
+}
+
+*{
+	box-sizing: border-box;
+}
+

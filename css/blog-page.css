@@ -1,0 +1,56 @@
+/*----- SIDEBAR -----*/
+.blog__sidebar{
+	float:right;
+	width: 25%;}
+
+.sidebar__link{
+	font-family: var(--primary-font);
+	font-size: 1rem;
+	color: var(--dark-grey);
+	display:block;
+	margin-top: 1rem;
+}
+
+.sidebar__link:hover{
+	color: var(--pink);
+}
+
+.sidebar__title{
+	font-family: var(--primary-font);
+	font-size: 1.5rem;
+}
+
+/* --- BLOG CONTENT --- */
+
+.blog{
+	float: left;
+	width: 70%;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 900px;
+}
+
+.blog__content{
+	font-family: var(--primary-font);
+	color: var(--dark-grey);
+	font-size: 1rem;
+}
+
+.blog__img{
+	width:80%;
+}
+
+/* --- MEDIA QUERIES --- */
+@media screen and (max-width: 600px){
+	.blog__sidebar{
+		float:none;
+		width: 100%;
+	}
+	.blog{
+		width: 100%;
+	}
+}
